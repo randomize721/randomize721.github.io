@@ -54,7 +54,7 @@ function searchMovies (search_query) {
 
     $.ajax({
         type: 'get',
-        url: 'http://www.omdbapi.com/',
+        url: 'https://www.omdbapi.com/',
         dataType: 'json',
         data: {
             'apikey' : apikey,
@@ -81,7 +81,7 @@ function detailMovie (movieID) {
 
     $.ajax({
         type: 'get',
-        url: 'http://www.omdbapi.com/',
+        url: 'https://www.omdbapi.com/',
         dataType: 'json',
         data: {
             'apikey' : apikey,
