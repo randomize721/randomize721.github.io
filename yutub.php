@@ -41,7 +41,7 @@
             }
         ?>
     </div>
-    <a href="https://www.youtube.com/channel/UCJgKoSpz2fSeu_KNFC_uqtw" class="btn btn-danger w-100" target="_blank"><i class="fas fa-home "></i><br> Menuju Channel</a>
+    <a href="https://www.youtube.com/channel/UCJgKoSpz2fSeu_KNFC_uqtw" class="btn btn-danger w-100" target="_blank"><i class="fas fa-home "></i><br> Visit Channel</a>
 </div>
 <script src="https://apis.google.com/js/platform.js"></script>
 <?php
