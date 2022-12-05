@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <Layout activeNav="home">
       <Head>
-        <title>Home</title>
+        <title>omdb</title>
       </Head>
       <div className="container">
-        paan
+        omdb
       </div>
     </Layout>
   )
