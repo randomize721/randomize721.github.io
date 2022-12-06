@@ -24,3 +24,17 @@ a {
     background: black;
   } */
 }
+
+.youtube-profile img{
+  max-height: 200px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+  transition: 100ms;
+}
