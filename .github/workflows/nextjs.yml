@@ -25,9 +25,9 @@ concurrency:
   
 # Define Environtment Variables
 env:
-  YOUTUBE_CHANNEL_ID = UCJgKoSpz2fSeu_KNFC_uqtw
-  YOUTUBE_API_KEY = AIzaSyDW7AC7ioEViIWrL2e0vDg47-53aS71eOg
-  OMDB_API_KEY = ee64305e
+  YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
+  YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_CHANNEL_ID }}
+  OMDB_API_KEY: ${{ secrets.YOUTUBE_CHANNEL_ID }}
 
 jobs:
   # Build job
