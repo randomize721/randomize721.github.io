@@ -53,9 +53,9 @@ jobs:
           node-version: "16"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
         env:
-          YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+          YOUTUBE_CHANNEL_ID: UCJgKoSpz2fSeu_KNFC_uqtw
+          YOUTUBE_API_KEY: AIzaSyDW7AC7ioEViIWrL2e0vDg47-53aS71eOg
+          OMDB_API_KEY: ee64305e
       - name: Setup Pages
         uses: actions/configure-pages@v2
         with:
