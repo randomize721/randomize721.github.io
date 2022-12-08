@@ -102,6 +102,7 @@ export default function Home() {
             href="https://www.youtube.com/channel/UCJgKoSpz2fSeu_KNFC_uqtw"
             className="btn btn-danger w-100 my-3"
             target="_blank"
+            rel="noreferrer"
           >
             <br /> Visit Channel
           </a>
