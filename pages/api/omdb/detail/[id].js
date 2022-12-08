@@ -5,7 +5,7 @@ export default async (req, res) => {
   
     const data = req.query
     
-    const apiKey = process.env.OMDB_API_KEY
+    const apiKey = process.env.NEXT_PUBLIC_OMDB_API_KEY
     const endpoint = `https://www.omdbapi.com/?apikey=${apiKey}&i=${data.id}`
 
     const response = await fetch(endpoint);
