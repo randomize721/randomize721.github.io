@@ -22,12 +22,6 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: true
-  
-# Define Environtment Variables
-env:
-  YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
-  YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-  OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
 
 jobs:
   # Build job
@@ -58,6 +52,10 @@ jobs:
         with:
           node-version: "16"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+        env:
+          YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
       - name: Setup Pages
         uses: actions/configure-pages@v2
         with:
