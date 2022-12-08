@@ -22,6 +22,12 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: true
+  
+# Define Environtment Variables
+env:
+  YOUTUBE_CHANNEL_ID = UCJgKoSpz2fSeu_KNFC_uqtw
+  YOUTUBE_API_KEY = AIzaSyDW7AC7ioEViIWrL2e0vDg47-53aS71eOg
+  OMDB_API_KEY = ee64305e
 
 jobs:
   # Build job
