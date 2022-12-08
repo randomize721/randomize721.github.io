@@ -1,8 +1,8 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default async (req, res) => {
-  const channelId = process.env.NEXT_PUBLIC_YOUTUBE_CHANNEL_ID;
-  const apiKey = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY;
+  const channelId = process.env.YOUTUBE_CHANNEL_ID;
+  const apiKey = process.env.YOUTUBE_API_KEY;
   const url =
     "https://www.googleapis.com/youtube/v3/search?key=" +
     apiKey +
